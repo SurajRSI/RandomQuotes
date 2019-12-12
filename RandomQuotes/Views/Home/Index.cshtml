@@ -4,7 +4,7 @@
     ViewData["Title"] = "Random Quotes";
 }
 
-<h2>Random QuoteZZ</h2>
+<h2>Quotes as a Service</h2>
 
 <div class="panel panel-default">
     <div class="panel-body">
@@ -17,7 +17,6 @@
     </div>
 </div>
 
-
-<form method="post" asp-action="ReloadPage">
-    <input type="submit" class="btn btn-success btn-lg text-center" value="Refresh" />
-</form>
+<div class="btn btn-success btn-lg text-center">
+    <a style="color:white" href="@Url.Action("Index")"><span>Refresh</span></a>
+</div>
